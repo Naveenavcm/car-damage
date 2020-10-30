@@ -19,7 +19,6 @@ cryptography==2.1.4
 cycler==0.10.0
 Cython==0.29.21
 decorator==4.4.2
-defer==1.0.6
 defusedxml==0.6.0
 docutils==0.16
 entrypoints==0.3
