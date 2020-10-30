@@ -102,7 +102,6 @@ PyNaCl==1.1.2
 pyparsing==2.4.7
 pyRFC3339==1.0
 pyrsistent==0.17.3
-python-apt==1.6.5+ubuntu0.3
 python-dateutil==2.6.1
 python-debian==0.1.32
 pytz==2018.3
@@ -146,7 +145,6 @@ tifffile==2020.9.3
 tornado==6.0.4
 traitlets==4.3.3
 typing-extensions==3.7.4.3
-ubuntu-drivers-common==0.0.0
 ufw==0.36
 unattended-upgrades==0.1
 urllib3==1.22
