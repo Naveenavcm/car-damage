@@ -88,6 +88,8 @@ def drawing_json(filepath,result):
     labelledObjects = read_json(result)
     if labelledObjects is False:
         im = cv2.imread(image_path)
+        print(image_path)
+        print(filepath)
         cv2.imwrite("/home/naveena/Downloads/c19.jpeg", im)
         result_path = "/home/naveena/Downloads/c19.jpeg"
         return result_path
