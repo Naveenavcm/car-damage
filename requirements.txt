@@ -143,7 +143,6 @@ testpath==0.4.4
 tifffile==2020.9.3
 tornado==6.0.4
 traitlets==4.3.3
-typing-extensions==3.7.4.3
 ufw==0.36
 unattended-upgrades==0.1
 urllib3==1.22
