@@ -3,8 +3,6 @@ bleach==3.2.1
 cryptography==2.1.4
 cycler==0.10.0
 Cython==0.29.21
-docutils==0.16
-entrypoints==0.3
 Flask==1.1.2
 future==0.18.2
 gast==0.3.3
