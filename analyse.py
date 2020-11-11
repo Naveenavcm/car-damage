@@ -23,6 +23,7 @@ def analyze_results( path):
                 images_file=[
                     FileWithMetadata(honda_file)
                 ], threshold=0.25).get_result()
+            print("helllo")
             print(result)
             print(type(result))
             return result
@@ -32,5 +33,8 @@ def analyze_results( path):
 def analyzing(path):
     result = analyze_results(path)
     if result is not None:
-        image_path = draw_json.drawing_json(path,result)
+        try:
+            image_path = draw_json.drawing_json(path,result)
+        except:
+            image_path=path
         return image_path
