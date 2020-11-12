@@ -70,7 +70,7 @@ numpy==1.18.5
 oauth==1.0.1
 oauthlib==3.1.0
 olefile==0.45.1
-opencv-python==4.4.0.44
+opencv-python==4.4.0.46
 opt-einsum==3.3.0
 packaging==20.4
 pandas==1.1.3
@@ -128,7 +128,7 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 tornado==6.0.4
 traitlets==4.3.3
-urllib3==1.26.1
+urllib3==1.22
 websocket-client==0.57.0
 Werkzeug==1.0.1
 zipp==3.4.0
