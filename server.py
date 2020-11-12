@@ -1,7 +1,6 @@
 import flask
 
 import analyse
-import draw_json
 from flask import Flask, redirect, url_for, request, send_file
 from price_prediction import predict
 
