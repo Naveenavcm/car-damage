@@ -2,3 +2,5 @@ libsm6
 libxrender1
 lidfontconfig1
 lidice6
+ffmpeg-python
+libxext6
