@@ -3,7 +3,7 @@ import json
 from ibm_watson import VisualRecognitionV4
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from ibm_watson.visual_recognition_v4 import AnalyzeEnums, FileWithMetadata
-import draw_json
+#import draw_json
 
 authenticator = IAMAuthenticator('4-ejwb43zCRCOJAgo1p-l_arPHzyNG3wWihdPWzdIqjm')
 visual_recognition = VisualRecognitionV4(
@@ -34,7 +34,7 @@ def analyzing(path):
     result = analyze_results(path)
     if result is not None:
         try:
-            image_path = draw_json.drawing_json(path,result)
+            image_path = path
         except:
             image_path=path
         return image_path
