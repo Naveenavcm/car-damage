@@ -1,7 +1,7 @@
 
 import os
 os.environ['GLOG_minloglevel'] = '2'
-import  os, sys, cv2
+import  os, sys,
 import argparse
 import shutil
 import sys ,os
