@@ -1,7 +1,7 @@
 
 import os
 os.environ['GLOG_minloglevel'] = '2'
-import  os, sys,
+import  os, sys, cv2
 import argparse
 import shutil
 import sys ,os
@@ -90,8 +90,8 @@ def drawing_json(filepath,result):
         im = cv2.imread(image_path)
         print(image_path)
         print(filepath)
-        cv2.imwrite("/home/naveena/Downloads/c24.jpeg", im)
-        result_path = "/home/naveena/Downloads/c24.jpeg"
+        cv2.imwrite(image_path, im)
+        result_path = image_path
         return result_path
     else:
         print(image_path)
