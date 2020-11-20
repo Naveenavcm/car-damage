@@ -4,7 +4,7 @@ os.environ['GLOG_minloglevel'] = '2'
 import  os, sys, cv2
 import argparse
 import shutil
-import sys ,os
+#import sys ,os
 from os import listdir
 from os.path import isfile, join
 #from tqdm import tqdm
