@@ -22,7 +22,7 @@ def analyze_results( path):
                 features=[AnalyzeEnums.Features.OBJECTS.value],
                 images_file=[
                     FileWithMetadata(honda_file)
-                ], threshold=0.24).get_result()
+                ], threshold=0.25).get_result()
             print("helllo")
             print(result)
             print(type(result))
